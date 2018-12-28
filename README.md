@@ -4,4 +4,4 @@
 ### 示例
 <img src="https://github.com/huanglei1926/HLCustomInsetButtonDemo/blob/master/Images/HLCustomInsetButton.gif" width="375" height="812" alt="示例"/>
 
-<img src="https://github.com/huanglei1926/HLCustomInsetButtonDemo/blob/master/images/image1.png" width="375" height="812" alt="示例"/>
+<img src="https://github.com/huanglei1926/HLCustomInsetButtonDemo/blob/master/Images/image1.png" width="375" height="812" alt="示例"/>
