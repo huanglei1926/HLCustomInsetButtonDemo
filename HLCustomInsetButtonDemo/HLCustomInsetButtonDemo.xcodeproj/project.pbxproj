@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF0654F221D6126E000C05C1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0654F121D6126E000C05C1 /* AppDelegate.m */; };
+		BF0654F521D6126E000C05C1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0654F421D6126E000C05C1 /* ViewController.m */; };
+		BF0654F821D6126E000C05C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0654F621D6126E000C05C1 /* Main.storyboard */; };
+		BF0654FA21D6126F000C05C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF0654F921D6126F000C05C1 /* Assets.xcassets */; };
+		BF0654FD21D6126F000C05C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF0654FB21D6126F000C05C1 /* LaunchScreen.storyboard */; };
+		BF06550021D6126F000C05C1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF0654FF21D6126F000C05C1 /* main.m */; };
+		BF06550A21D6126F000C05C1 /* HLCustomInsetButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF06550921D6126F000C05C1 /* HLCustomInsetButtonDemoTests.m */; };
+		BF06551521D6126F000C05C1 /* HLCustomInsetButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF06551421D6126F000C05C1 /* HLCustomInsetButtonDemoUITests.m */; };
+		BF06552921D61FDF000C05C1 /* HLHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF06552721D61FDF000C05C1 /* HLHomeController.m */; };
+		BF06552A21D61FDF000C05C1 /* HLHomeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF06552821D61FDF000C05C1 /* HLHomeController.xib */; };
+		BF06553521D621D2000C05C1 /* HLCustomInsetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF06553321D621D2000C05C1 /* HLCustomInsetButton.m */; };
+		BF06553721D62663000C05C1 /* smile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF06553621D62663000C05C1 /* smile@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF06550621D6126F000C05C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0654E521D6126E000C05C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0654EC21D6126E000C05C1;
+			remoteInfo = HLCustomInsetButtonDemo;
+		};
+		BF06551121D6126F000C05C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF0654E521D6126E000C05C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF0654EC21D6126E000C05C1;
+			remoteInfo = HLCustomInsetButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BF0654ED21D6126E000C05C1 /* HLCustomInsetButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HLCustomInsetButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0654F021D6126E000C05C1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BF0654F121D6126E000C05C1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BF0654F321D6126E000C05C1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BF0654F421D6126E000C05C1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF0654F721D6126E000C05C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF0654F921D6126F000C05C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF0654FC21D6126F000C05C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF0654FE21D6126F000C05C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF0654FF21D6126F000C05C1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF06550521D6126F000C05C1 /* HLCustomInsetButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCustomInsetButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF06550921D6126F000C05C1 /* HLCustomInsetButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCustomInsetButtonDemoTests.m; sourceTree = "<group>"; };
+		BF06550B21D6126F000C05C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF06551021D6126F000C05C1 /* HLCustomInsetButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HLCustomInsetButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF06551421D6126F000C05C1 /* HLCustomInsetButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLCustomInsetButtonDemoUITests.m; sourceTree = "<group>"; };
+		BF06551621D6126F000C05C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF06552621D61FDF000C05C1 /* HLHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLHomeController.h; sourceTree = "<group>"; };
+		BF06552721D61FDF000C05C1 /* HLHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLHomeController.m; sourceTree = "<group>"; };
+		BF06552821D61FDF000C05C1 /* HLHomeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HLHomeController.xib; sourceTree = "<group>"; };
+		BF06553321D621D2000C05C1 /* HLCustomInsetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLCustomInsetButton.m; sourceTree = "<group>"; };
+		BF06553421D621D2000C05C1 /* HLCustomInsetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLCustomInsetButton.h; sourceTree = "<group>"; };
+		BF06553621D62663000C05C1 /* smile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "smile@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF0654EA21D6126E000C05C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF06550221D6126F000C05C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF06550D21D6126F000C05C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF0654E421D6126E000C05C1 = {
+			isa = PBXGroup;
+			children = (
+				BF0654EF21D6126E000C05C1 /* HLCustomInsetButtonDemo */,
+				BF06550821D6126F000C05C1 /* HLCustomInsetButtonDemoTests */,
+				BF06551321D6126F000C05C1 /* HLCustomInsetButtonDemoUITests */,
+				BF0654EE21D6126E000C05C1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF0654EE21D6126E000C05C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF0654ED21D6126E000C05C1 /* HLCustomInsetButtonDemo.app */,
+				BF06550521D6126F000C05C1 /* HLCustomInsetButtonDemoTests.xctest */,
+				BF06551021D6126F000C05C1 /* HLCustomInsetButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF0654EF21D6126E000C05C1 /* HLCustomInsetButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BF06553621D62663000C05C1 /* smile@2x.png */,
+				BF06553221D621D2000C05C1 /* HLCustomInsetButton */,
+				BF0654F021D6126E000C05C1 /* AppDelegate.h */,
+				BF0654F121D6126E000C05C1 /* AppDelegate.m */,
+				BF0654F321D6126E000C05C1 /* ViewController.h */,
+				BF0654F421D6126E000C05C1 /* ViewController.m */,
+				BF0654F621D6126E000C05C1 /* Main.storyboard */,
+				BF0654F921D6126F000C05C1 /* Assets.xcassets */,
+				BF0654FB21D6126F000C05C1 /* LaunchScreen.storyboard */,
+				BF0654FE21D6126F000C05C1 /* Info.plist */,
+				BF0654FF21D6126F000C05C1 /* main.m */,
+				BF06552621D61FDF000C05C1 /* HLHomeController.h */,
+				BF06552721D61FDF000C05C1 /* HLHomeController.m */,
+				BF06552821D61FDF000C05C1 /* HLHomeController.xib */,
+			);
+			path = HLCustomInsetButtonDemo;
+			sourceTree = "<group>";
+		};
+		BF06550821D6126F000C05C1 /* HLCustomInsetButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF06550921D6126F000C05C1 /* HLCustomInsetButtonDemoTests.m */,
+				BF06550B21D6126F000C05C1 /* Info.plist */,
+			);
+			path = HLCustomInsetButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		BF06551321D6126F000C05C1 /* HLCustomInsetButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BF06551421D6126F000C05C1 /* HLCustomInsetButtonDemoUITests.m */,
+				BF06551621D6126F000C05C1 /* Info.plist */,
+			);
+			path = HLCustomInsetButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		BF06553221D621D2000C05C1 /* HLCustomInsetButton */ = {
+			isa = PBXGroup;
+			children = (
+				BF06553421D621D2000C05C1 /* HLCustomInsetButton.h */,
+				BF06553321D621D2000C05C1 /* HLCustomInsetButton.m */,
+			);
+			path = HLCustomInsetButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF0654EC21D6126E000C05C1 /* HLCustomInsetButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF06551921D6126F000C05C1 /* Build configuration list for PBXNativeTarget "HLCustomInsetButtonDemo" */;
+			buildPhases = (
+				BF0654E921D6126E000C05C1 /* Sources */,
+				BF0654EA21D6126E000C05C1 /* Frameworks */,
+				BF0654EB21D6126E000C05C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HLCustomInsetButtonDemo;
+			productName = HLCustomInsetButtonDemo;
+			productReference = BF0654ED21D6126E000C05C1 /* HLCustomInsetButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF06550421D6126F000C05C1 /* HLCustomInsetButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF06551C21D6126F000C05C1 /* Build configuration list for PBXNativeTarget "HLCustomInsetButtonDemoTests" */;
+			buildPhases = (
+				BF06550121D6126F000C05C1 /* Sources */,
+				BF06550221D6126F000C05C1 /* Frameworks */,
+				BF06550321D6126F000C05C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF06550721D6126F000C05C1 /* PBXTargetDependency */,
+			);
+			name = HLCustomInsetButtonDemoTests;
+			productName = HLCustomInsetButtonDemoTests;
+			productReference = BF06550521D6126F000C05C1 /* HLCustomInsetButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF06550F21D6126F000C05C1 /* HLCustomInsetButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF06551F21D6126F000C05C1 /* Build configuration list for PBXNativeTarget "HLCustomInsetButtonDemoUITests" */;
+			buildPhases = (
+				BF06550C21D6126F000C05C1 /* Sources */,
+				BF06550D21D6126F000C05C1 /* Frameworks */,
+				BF06550E21D6126F000C05C1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF06551221D6126F000C05C1 /* PBXTargetDependency */,
+			);
+			name = HLCustomInsetButtonDemoUITests;
+			productName = HLCustomInsetButtonDemoUITests;
+			productReference = BF06551021D6126F000C05C1 /* HLCustomInsetButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF0654E521D6126E000C05C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = HL;
+				TargetAttributes = {
+					BF0654EC21D6126E000C05C1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					BF06550421D6126F000C05C1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF0654EC21D6126E000C05C1;
+					};
+					BF06550F21D6126F000C05C1 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = BF0654EC21D6126E000C05C1;
+					};
+				};
+			};
+			buildConfigurationList = BF0654E821D6126E000C05C1 /* Build configuration list for PBXProject "HLCustomInsetButtonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF0654E421D6126E000C05C1;
+			productRefGroup = BF0654EE21D6126E000C05C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF0654EC21D6126E000C05C1 /* HLCustomInsetButtonDemo */,
+				BF06550421D6126F000C05C1 /* HLCustomInsetButtonDemoTests */,
+				BF06550F21D6126F000C05C1 /* HLCustomInsetButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF0654EB21D6126E000C05C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0654FD21D6126F000C05C1 /* LaunchScreen.storyboard in Resources */,
+				BF0654FA21D6126F000C05C1 /* Assets.xcassets in Resources */,
+				BF06553721D62663000C05C1 /* smile@2x.png in Resources */,
+				BF06552A21D61FDF000C05C1 /* HLHomeController.xib in Resources */,
+				BF0654F821D6126E000C05C1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF06550321D6126F000C05C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF06550E21D6126F000C05C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF0654E921D6126E000C05C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF06552921D61FDF000C05C1 /* HLHomeController.m in Sources */,
+				BF0654F521D6126E000C05C1 /* ViewController.m in Sources */,
+				BF06550021D6126F000C05C1 /* main.m in Sources */,
+				BF0654F221D6126E000C05C1 /* AppDelegate.m in Sources */,
+				BF06553521D621D2000C05C1 /* HLCustomInsetButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF06550121D6126F000C05C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF06550A21D6126F000C05C1 /* HLCustomInsetButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF06550C21D6126F000C05C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF06551521D6126F000C05C1 /* HLCustomInsetButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF06550721D6126F000C05C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0654EC21D6126E000C05C1 /* HLCustomInsetButtonDemo */;
+			targetProxy = BF06550621D6126F000C05C1 /* PBXContainerItemProxy */;
+		};
+		BF06551221D6126F000C05C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF0654EC21D6126E000C05C1 /* HLCustomInsetButtonDemo */;
+			targetProxy = BF06551121D6126F000C05C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BF0654F621D6126E000C05C1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0654F721D6126E000C05C1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF0654FB21D6126F000C05C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF0654FC21D6126F000C05C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF06551721D6126F000C05C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BF06551821D6126F000C05C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF06551A21D6126F000C05C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCustomInsetButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCustomInsetButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF06551B21D6126F000C05C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCustomInsetButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCustomInsetButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF06551D21D6126F000C05C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCustomInsetButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCustomInsetButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLCustomInsetButtonDemo.app/HLCustomInsetButtonDemo";
+			};
+			name = Debug;
+		};
+		BF06551E21D6126F000C05C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCustomInsetButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCustomInsetButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HLCustomInsetButtonDemo.app/HLCustomInsetButtonDemo";
+			};
+			name = Release;
+		};
+		BF06552021D6126F000C05C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCustomInsetButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCustomInsetButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLCustomInsetButtonDemo;
+			};
+			name = Debug;
+		};
+		BF06552121D6126F000C05C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HLCustomInsetButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = huanglei1926.HLCustomInsetButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HLCustomInsetButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF0654E821D6126E000C05C1 /* Build configuration list for PBXProject "HLCustomInsetButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF06551721D6126F000C05C1 /* Debug */,
+				BF06551821D6126F000C05C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF06551921D6126F000C05C1 /* Build configuration list for PBXNativeTarget "HLCustomInsetButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF06551A21D6126F000C05C1 /* Debug */,
+				BF06551B21D6126F000C05C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF06551C21D6126F000C05C1 /* Build configuration list for PBXNativeTarget "HLCustomInsetButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF06551D21D6126F000C05C1 /* Debug */,
+				BF06551E21D6126F000C05C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF06551F21D6126F000C05C1 /* Build configuration list for PBXNativeTarget "HLCustomInsetButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF06552021D6126F000C05C1 /* Debug */,
+				BF06552121D6126F000C05C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF0654E521D6126E000C05C1 /* Project object */;
+}

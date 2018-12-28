@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HLHomeController">
+            <connections>
+                <outlet property="button" destination="vtJ-jp-XVb" id="ZXG-fn-pAh"/>
+                <outlet property="marginLabel" destination="nJ3-gm-VRU" id="1nX-xp-bJH"/>
+                <outlet property="marginSlider" destination="3Vb-6C-uZh" id="RiV-e6-U5K"/>
+                <outlet property="segmentView" destination="zed-El-2mt" id="vqM-mC-6Jd"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vtJ-jp-XVb" customClass="HLCustomInsetButton">
+                    <rect key="frame" x="112.5" y="100" width="150" height="150"/>
+                    <color key="backgroundColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="CPb-56-e5k"/>
+                        <constraint firstAttribute="height" constant="150" id="YXA-5I-QiP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="测试" image="smile.png">
+                        <color key="titleColor" red="0.29803921570000003" green="0.63137254899999995" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYS-yX-UPY">
+                    <rect key="frame" x="147.5" y="607" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.29803921570000003" green="0.63137254899999995" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="XV5-yf-FE2"/>
+                        <constraint firstAttribute="height" constant="30" id="uGP-OW-ao9"/>
+                    </constraints>
+                    <state key="normal" title="Bottom">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="bottomAction:" destination="-1" eventType="touchUpInside" id="ebl-Ko-6LQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a6o-bc-V2A">
+                    <rect key="frame" x="147.5" y="547" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.29803921570000003" green="0.63137254899999995" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Udy-El-6Mm"/>
+                        <constraint firstAttribute="height" constant="30" id="rPI-Ff-Lbd"/>
+                    </constraints>
+                    <state key="normal" title="Top">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="topAction:" destination="-1" eventType="touchUpInside" id="em8-Xb-QgM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EVD-Tl-y6H">
+                    <rect key="frame" x="247.5" y="577" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.29803921570000003" green="0.63137254899999995" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="5HG-eT-0yP"/>
+                        <constraint firstAttribute="width" constant="80" id="Ksr-q9-0kV"/>
+                    </constraints>
+                    <state key="normal" title="Right">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="rightAction:" destination="-1" eventType="touchUpInside" id="cbB-mU-VZp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RgM-JJ-EV6">
+                    <rect key="frame" x="47.5" y="577" width="80" height="30"/>
+                    <color key="backgroundColor" red="0.29803921570000003" green="0.63137254899999995" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="Jv2-8T-yg3"/>
+                        <constraint firstAttribute="height" constant="30" id="guV-w3-7U4"/>
+                    </constraints>
+                    <state key="normal" title="Left">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <connections>
+                        <action selector="leftAction:" destination="-1" eventType="touchUpInside" id="1d6-9Z-iG1"/>
+                    </connections>
+                </button>
+                <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="3Vb-6C-uZh">
+                    <rect key="frame" x="18" y="457" width="339" height="31"/>
+                    <connections>
+                        <action selector="changeMarginAction:" destination="-1" eventType="valueChanged" id="79I-S3-ZNO"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nJ3-gm-VRU">
+                    <rect key="frame" x="182.5" y="406.5" width="10.5" height="20.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="zed-El-2mt">
+                    <rect key="frame" x="131" y="339" width="113" height="29"/>
+                    <segments>
+                        <segment title="Margin"/>
+                        <segment title="Insets"/>
+                    </segments>
+                    <connections>
+                        <action selector="sementChangeAction:" destination="-1" eventType="valueChanged" id="1uA-D3-5nr"/>
+                    </connections>
+                </segmentedControl>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="cYS-yX-UPY" firstAttribute="top" secondItem="a6o-bc-V2A" secondAttribute="bottom" constant="30" id="55T-za-AZL"/>
+                <constraint firstItem="vtJ-jp-XVb" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="5t3-18-M39"/>
+                <constraint firstItem="3Vb-6C-uZh" firstAttribute="top" secondItem="zed-El-2mt" secondAttribute="bottom" constant="90" id="60u-cg-svs"/>
+                <constraint firstAttribute="bottom" secondItem="RgM-JJ-EV6" secondAttribute="bottom" constant="60" id="9gU-J0-PWa"/>
+                <constraint firstItem="vtJ-jp-XVb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="Bd1-RD-Ih3"/>
+                <constraint firstItem="3Vb-6C-uZh" firstAttribute="top" secondItem="nJ3-gm-VRU" secondAttribute="bottom" constant="30" id="NUs-Pf-hIV"/>
+                <constraint firstItem="RgM-JJ-EV6" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="-60" id="Y4h-c6-E17"/>
+                <constraint firstItem="3Vb-6C-uZh" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="bCB-0U-Bm0"/>
+                <constraint firstItem="cYS-yX-UPY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="gzt-QB-y2b"/>
+                <constraint firstItem="a6o-bc-V2A" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="hAp-rC-ujg"/>
+                <constraint firstItem="zed-El-2mt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="mrT-5b-rfk"/>
+                <constraint firstItem="EVD-Tl-y6H" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="centerX" constant="60" id="odR-g0-y7O"/>
+                <constraint firstItem="nJ3-gm-VRU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="pO8-D9-jkX"/>
+                <constraint firstAttribute="bottom" secondItem="cYS-yX-UPY" secondAttribute="bottom" constant="30" id="uub-7M-inM"/>
+                <constraint firstItem="a6o-bc-V2A" firstAttribute="top" secondItem="3Vb-6C-uZh" secondAttribute="bottom" constant="60" id="uwz-fs-G0J"/>
+                <constraint firstAttribute="bottom" secondItem="EVD-Tl-y6H" secondAttribute="bottom" constant="60" id="yNF-DT-mml"/>
+                <constraint firstAttribute="trailing" secondItem="3Vb-6C-uZh" secondAttribute="trailing" constant="20" id="yvu-71-Qu2"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="smile.png" width="40" height="40"/>
+    </resources>
+</document>
